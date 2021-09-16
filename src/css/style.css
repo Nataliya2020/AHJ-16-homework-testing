@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.validation-container {
+  width: 381px;
+  padding: 9px 26px 11px 15px;
+}
+
+.container-title {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.title {
+  margin-bottom: 8px;
+}
+
+.validation-container-cards {
+  display: flex;
+  justify-content: flex-start;
+
+  margin-bottom: 10px;
+}
+
+.card {
+  width: 40px;
+  height: 25px;
+  margin-right: 4px;
+
+  border-radius: 5px;
+  background-color: #ececec;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card-visa {
+background-image: url(../img/card_visa.png);
+}
+
+.card-masterCard {
+  background-image: url(../img/mastercard.png);
+}
+
+.card-american-express {
+  background-image: url(../img/american_express.png);
+}
+
+.card-discover {
+  background-image: url(../img/discover.png);
+}
+
+.card-jcb {
+  background-image: url(../img/jcb.png);
+}
+
+.card-diners {
+  background-image: url(../img/diners_club.png);
+}
+
+.card-world {
+  background-image: url(../img/Mir-logo.SVG.svg);
+  background-size: contain;
+  margin-right: 0;
+}
+
+.validation-container-data {
+  width: 340px;
+}
+
+.card-number-label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-field {
+  width: 205px;
+  padding: 10px 12px;
+  border-color: #cccccc;
+}
+
+.input-field.valid {
+  background-image: url('../img/camera_test.png');
+  background-repeat: no-repeat;
+  background-size: 30px auto;
+  background-position: right top 3px;
+}
+
+.input-field.invalid {
+  background-image: url('../img/error.png');
+  background-repeat: no-repeat;
+  background-size: 20px auto;
+  background-position: right 6px top 6px;
+}
+
+.button {
+  width: 125px;
+  padding: 11px 13px;
+
+  border: none;
+  outline: none;
+  background-color: green;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+.card-mask {
+  opacity: 0.3;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}

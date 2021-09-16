@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Card</title>
+</head>
+<body>
+<div class="validation-container">
+  <div class="container-title">
+    <p class="title">Check your credit card number</p>
+  </div>
+  
+  <div class="validation-container-cards">
+    <div class="card card-visa" title="Visa"><span class="visually-hidden">Карта Виза</span></div>
+    <div class="card card-masterCard" title="Mastercard"><span class="visually-hidden">Карта Мастеркард</span></div>
+    <div class="card card-american-express" title="American express"><span class="visually-hidden">Карта Американ Экспресс</span></div>
+    <div class="card card-discover" title="Discover"><span class="visually-hidden">Карта Дискавер</span></div>
+    <div class="card card-jcb" title="Jcb"><span class="visually-hidden">Карта ДжейСиБи</span></div>
+    <div class="card card-diners" title="Diners club"><span class="visually-hidden">Карта Динерс</span></div>
+    <div class="card card-world" title="Мир"><span class="visually-hidden">Карта Мир</span></div>
+  </div>
+  <div class="validation-container-data">
+    <form class="card-number">
+      <label class="card-number-label">
+        <span class="visually-hidden">
+          Ввод номера карты
+        </span>
+        <input class="input-field" placeholder="Credit card number" type="text" required>
+        <button class="button">Click to Validate</button>
+      </label>
+    </form>
+  </div>
+  <p class="notification"><span class="visually-hidden">Уведомления</span>
+ </p>
+</div>
+</body>
+</html>

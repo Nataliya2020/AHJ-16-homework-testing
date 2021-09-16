@@ -1,0 +1,56 @@
+{
+  "name": "ahj-16-homework-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.dev.js",
+    "lint": "eslint .",
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "build": "webpack --config webpack.prod.js",
+    "preshow:coverage": "npm run coverage",
+    "show:coverage": "live-server coverage/lcov-report",
+    "preshow:dist": "npm run build",
+    "show:dist": "live-server dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nataliya2020/AHJ-16-homework-testing.git"
+  },
+  "author": "Nataliya2020",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nataliya2020/AHJ-16-homework-testing/issues"
+  },
+  "homepage": "https://github.com/Nataliya2020/AHJ-16-homework-testing#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.4",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-jest": "^27.1.1",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "http-server": "^13.0.1",
+    "image-webpack-loader": "^7.0.1",
+    "jest": "^27.1.1",
+    "live-server": "^1.2.1",
+    "mini-css-extract-plugin": "^2.3.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "raw-loader": "^4.0.2",
+    "terser-webpack-plugin": "^5.2.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "core-js": "^3.17.3"
+  }
+}
